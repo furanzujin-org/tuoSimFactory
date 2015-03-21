@@ -1,0 +1,40 @@
+{
+  "name": "Card",
+  "base": "PersistedModel",
+  "strict": false,
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "level": {
+      "type": "string"
+    },
+    "attack": {
+      "type": "number"
+    },
+    "defense": {
+      "type": "number"
+    },
+    "delay": {
+      "type": "number"
+    },
+    "source": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "faction": {
+      "type": "string"
+    },
+    "skills": {
+      "type": [
+        "object"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

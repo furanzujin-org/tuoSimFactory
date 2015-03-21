@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "cardFactor": {
+    "host": "127.0.0.1",
+    "port": 27017,
+    "url": "",
+    "database": "cardFactor",
+    "password": "",
+    "name": "cardFactor",
+    "user": "",
+    "connector": "mongodb"
+  }
+}
